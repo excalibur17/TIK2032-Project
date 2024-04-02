@@ -3,37 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../tugas-css/gallery.css">
+   
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Ho<span>me</span></a></li>
+                <li><a href="gallery.html">Gal<span>lery</span></a></li>
+                <li><a href="blog.html">Bl<span>og</span></a></li>
+                <li><a href="contact.html">Con<span>tact</span></a></li>
             </ul>
         </nav>
     </header>
 
-    <div>
-        <h2>Gallery</h2>
+    <div class="gallery-container">
+        <h2>Welcome to <span>my Gallery</span></h2>
+        
+        <div class="gallery-item">
+            <h4>The nig<span>ht sky</span></h4>
+            <img src="img/Star.png" alt="The night sky">
+        </div>
+
+        <div class="gallery-item">
+            <h4>Water<span>fall</span></h4>
+            <img src="img/Waterfall.png" alt="Waterfall">
+        </div>
+
+        <div class="gallery-item">
+            <h4>Hogw<span>arts</span></h4>
+            <img src="img/Hogwarts.png" alt="Hogwarts">
+        </div>
     </div>
 
-    <div>
-        <p>The night sky</p>
-        <img src="img/Star.png" height="300px" alt="logo" title="my picture" >
-
-        <p>Waterfall</p>
-        <img src="img/Waterfall.png" height="360px" alt="logo" title="my picture" >
-
-        <p>Hogwarts</p>
-        <img src="img/Hogwarts.png" height="590px" alt="logo" title="my picture" >
+    <div style="text-align: center;" >
+        <p><span>© Arthur Unsong.</span> All rights reserved.</p>
     </div>
-
-    <footer class="footer">
-        <p>© Arthur Unsong. All rights reserved.</p>
-    </footer>
 </body>
 </html>
