@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #011a1f;
+}
+
+header {
+    background-color: #050606;
+    color: #f2eded;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+h2{
+    color: wheat;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 20px;
+    color: aqua;
+    padding: 0 50px;
+}
+
+p {
+    color: wheat;
+    line-height: 1.6;
+    padding: 0 70px;
+    
+}
+
+span{
+    color: aqua;
+}
+.animate-scroll {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.animate-scroll.animated {
+    opacity: 1;
+}
+/* CSS untuk dropdown */
+#language-select {
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #011a1f;
+    color: wheat;
+    border: none;
+    font-size: 16px;
+    float: right;
+    margin-right: 10px;
+}
+#toggle-button {
+    display: inline-block;
+    margin-left: 20px; /* Atur jarak antara tombol toggle dengan elemen lain di navbar */
+    cursor: pointer;
+}
+
+#toggle-button img {
+    width: 30px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto; /* Biarkan tinggi gambar disesuaikan dengan lebar */
+}
+
+#toggle-button:hover img {
+    opacity: 0.8; /* Kurangi opacity ketika tombol dihover */
+}
+
+/* Tambahkan style untuk mode terang */
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+.light-mode header {
+    background-color: antiquewhite;
+}
+
+.light-mode nav ul li a {
+    color: #000000; /* Warna hiperlink */
+}
+
+.light-mode h4 {
+    color: #00bcd4; /* Warna judul */
+}
+
+.light-mode p {
+    color: #000000; /* Warna isi teks */
+}
+
+.light-mode span {
+    color: #00bcd4; /* Warna span */
+}
+
+.light-mode #toggle-button img {
+    filter: invert(0%); /* Membalik warna tombol toggle saat mode terang */
+}
+/* Efek hover untuk navbar pada mode terang */
+.light-mode header nav ul li a:hover {
+    color: #ffd700; /* Ubah warna pada hover */
+}
+
+/* Efek hover untuk tombol toggle pada mode terang */
+.light-mode #toggle-button:hover img {
+    opacity: 0.8; /* Kurangi opacity ketika tombol dihover */
+}

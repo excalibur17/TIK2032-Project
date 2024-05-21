@@ -1,0 +1,211 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #011a1f;
+    color: wheat;
+}
+
+header {
+    background-color: #050606;
+    color: #f2eded;
+    padding: 20px 0 48px; /* Changed padding bottom to 32px */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2, p, a, span, .text h3, .text h4 {
+    color: wheat;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    width: 45%;
+    height: 100%; /* Set height to match contact form */
+}
+
+.contact-box {
+    background-color: rgb(9, 82, 80);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.icon {
+    vertical-align: middle;
+}
+
+.text {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.text h3 {
+    color: aquamarine;
+    margin-top: 0;
+}
+
+.text h4 {
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+.text p {
+    margin: 5px 0 0;
+}
+
+.contact-form {
+    width: 45%;
+    height: 100%; /* Set height to match contact info */
+}
+
+span {
+    color: aqua;
+}
+
+.contact-form form {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    height: 365px; /* Set height to 450.8px */
+    display: flex; /* Add flexbox */
+    flex-direction: column; /* Align items in a column */
+    justify-content: 20px; /* Add space between items */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: calc(100% - 40px); /* Width - padding * 2 */
+    margin-bottom: 20px;
+    padding: 12px; /* Increase padding */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px; /* Increase font size */
+}
+
+.contact-form textarea {
+    height: 150px; /* Increase height of the textarea */
+}
+
+.contact-form button {
+    width: calc(100% - 40px); /* Width - padding * 2 */
+    padding: 12px; /* Increase padding */
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* CSS for dropdown */
+#language-select {
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #011a1f;
+    color: wheat;
+    border: none;
+    font-size: 16px;
+    float: right;
+    margin-right: 10px;
+}
+
+#toggle-button {
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Light mode styles */
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.light-mode nav ul li a {
+    color: #000000;
+}
+
+.light-mode header {
+    background-color: antiquewhite;
+}
+
+.light-mode .contact-box {
+    background-color: #f0f0f0;
+}
+
+.light-mode .text h2 {
+    color: #000000;
+}
+
+.light-mode .text h3 {
+    color: #009688;
+}
+
+.light-mode .text h4 {
+    color: #009688;
+}
+
+.light-mode .text p {
+    color: #000000;
+}
+
+.light-mode a {
+    color: #000000;
+}
+
+.light-mode span {
+    color: #000000;
+}
+
+.light-mode header nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* End of style.css */
+
+#toggle-button img {
+    width: 30px;
+    height: auto;
+}
+
+.light-mode #toggle-button img {
+    width: 30px;
+    height: auto;
+}
+
+/* End of style.css */
